@@ -1,0 +1,84 @@
+.heart-subtitle {
+    color: rgb(213, 199, 92);
+}
+
+.result-second-container {
+    min-width: 200px;
+    max-width: 260px;
+    text-align: center;
+}
+
+.iphone {
+    width: 300px;
+
+    margin-top: 50px;
+}
+
+.record-flexbox {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10%;
+}
+
+.iphone-flexbox {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.record-title {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+.youtube-flexbox {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10%;
+
+    margin-top: 150px;
+}
+
+.youtube-title {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+
+    .whole-section {
+                text-align: center;
+
+
+        width: 70%;
+    }
+
+.record-flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.iphone-flexbox {
+    margin-top: 50px;
+}
+
+.youtube-flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+}

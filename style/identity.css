@@ -1,0 +1,190 @@
+.heart-subtitle {
+    color: rgb(156, 98, 221);
+}
+
+.result-second-container {
+    min-width: 200px;
+    max-width: 260px;
+    text-align: center;
+}
+
+.iphone {
+    width: 300px;
+
+    margin-top: 50px;
+
+
+}
+
+.record-flexbox {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10%;
+}
+
+.iphone-flexbox {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.record-title {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+.youtube-flexbox {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10%;
+
+    margin-top: 150px;
+}
+
+.youtube-title {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.youtube-frame {
+    border-radius: 30px;
+}
+
+.heart-block {
+    width: 44px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.stimul {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stim-ex {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(255, 249, 242);
+    
+
+    border-radius: 25px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    width: 40%;
+}
+
+.stim-text {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.sun-icon {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.sun-text {
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-bottom: 30px;
+}
+
+
+.stim-container-second {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+
+    gap: 5%;
+
+    margin-top: 100px;
+}
+
+.point-text {
+    font-weight: bold;
+}
+
+.check-container {
+    margin-top: 100px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .whole-section {
+                text-align: center;
+
+
+        width: 70%;
+    }
+    .result-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .stim-container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stim-container-second {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.stim-ex {
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+.check-subtitle {
+    text-align: center;
+}
+
+.record-flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.iphone-flexbox {
+    margin-top: 50px;
+}
+}

@@ -1,0 +1,127 @@
+.heart-subtitle {
+    color: rgb(99, 166, 253);
+}
+
+.result-second-container {
+    min-width: 200px;
+    max-width: 260px;
+    text-align: center;
+}
+
+
+.result-second-container {
+    min-width: 200px;
+    max-width: 260px;
+    text-align: center;
+}
+
+.iphone {
+    width: 300px;
+
+    margin-top: 50px;
+        width: 400px; 
+    border-radius: 30px;
+}
+
+.record-flexbox {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10%;
+}
+
+.iphone-flexbox {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.record-title {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+.youtube-flexbox {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10%;
+
+    margin-top: 150px;
+}
+
+.youtube-title {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.link-phonix {
+    background-color: rgb(99, 166, 253);
+
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+
+    margin-top: 30px;
+
+    cursor: pointer;
+}
+
+.button-phonix {
+     text-align: center;
+}
+
+.laptop {
+    width: 450px;
+}
+
+
+@media (max-width: 600px) {
+
+    
+
+    .whole-section {
+                text-align: center;
+
+
+        width: 70%;
+    }
+
+.record-flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.iphone-flexbox {
+    margin-top: 50px;
+}
+
+.youtube-flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+@media (max-width: 500px) {
+    .iphone {
+        width: 300px;
+    }
+    .laptop {
+        width: 300px;
+    }
+}
