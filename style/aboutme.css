@@ -1,0 +1,170 @@
+
+.hero-title {
+        background-image: url(../hero/S__339173384_0.jpg);
+        background-size: cover;
+        background-position: center;
+
+}
+
+.whole-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.profile {
+    width: 100%;
+}
+
+
+.myname {
+    font-weight: bold;
+    font-size: 22px;
+
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.history {
+    background-color: rgb(237, 237, 237);
+
+
+        padding-left: 100px;
+    padding-right: 100px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-radius: 20px;
+
+    text-align: center;
+    margin-bottom: 60px;
+
+    font-weight: bold;
+}
+
+.details {
+    text-align: center;
+
+    width: 65%;
+
+    margin-bottom: 20px;
+}
+
+.youtube-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 75%;
+
+}
+
+
+
+.youtube {
+    font-size: 25px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.video {
+    width: 600px;
+}
+.text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.button-youtube {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(255, 122, 122);
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border-radius: 30px;
+    border: none;
+
+    cursor: pointer;
+
+
+
+    transition: box-shadow 0.2s
+}
+
+.button-youtube:hover {
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.15);
+}
+
+.youtube-con {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 768px) {
+
+     .hero-title {
+        background-position: 70% center; /* ←ここを調整 */
+    }
+
+    .whole-section {
+        width: 90%;
+    }
+
+    .history {
+        padding-left:30px ;
+        padding-right:30px ;
+    }
+
+
+    .youtube-container {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .youtube {
+        text-align: center;
+    }
+
+    .details {
+        margin-bottom: 80px;
+    }
+
+    
+
+
+
+
+
+}
+
